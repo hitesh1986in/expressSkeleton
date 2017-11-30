@@ -1,0 +1,37 @@
+{
+  "name": "expressskeleton",
+  "version": "1.0.0",
+  "description": "This is MEN skeleton for simple website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www --ignore public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitesh1986in/expressSkeleton.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "node",
+    "mongodb",
+    "moongoose"
+  ],
+  "author": "Hitesh Parikh <hitesh1986in@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitesh1986in/expressSkeleton/issues"
+  },
+  "homepage": "https://github.com/hitesh1986in/expressSkeleton#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.5",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "pug": "^2.0.0-rc.4"
+  }
+}
